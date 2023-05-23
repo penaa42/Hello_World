@@ -1,0 +1,30 @@
+#search button {
+    color:skyblue;    
+    background-color: white;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    width: 125px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#plus button {
+    color: white;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#account button {
+    background-color:rgb(21, 139, 185);
+    width: 150px;
+    height: 30px;
+    color: white;
+    box-shadow: 3px 3px black;
+    margin: 5px;
+}
+
+.button_stack{
+    margin: 30px 20px
+}
