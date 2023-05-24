@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <h1>Network</h1>
+        <h2>Your Feed</h2>
+
+        <div class = "main">
+            <div class = "left_col">
+                <img src = "assets/avatar_placeholder_small.png" alt = "">
+                <p><span>Add an avatar</span></p>
+                <h3>James Doe</h3>
+            </div>
+
+            <div class = "right_col">
+                <div class = "person">
+                    <div class = "top">
+                        <p class = "name">Neil M.</p>
+                        <div class = "likes">
+                            <p id = "person_1">9</p>
+                            <p>like(s)</p>
+                            <button onclick = "person1_likes()">Like</button>
+                        </div>
+                    </div>
+                    <p class = "person_text">I just set up this new discord bot, let me know what you all think. <span>link</span></p>
+                </div>
+
+                <div class = "person">
+                    <div class = "top">
+                        <p class = "name">Nichole K.</p>
+                        <div class = "likes">
+                            <p id = "person_2">12</p>
+                            <p>like(s)</p>
+                            <button onclick = "person2_likes()">Like</button>
+                        </div>
+                    </div>
+                    <p class = "person_text">Just finished my <span>next comic</span>, check kit out.</p>
+                </div>
+                
+                <div class = "person">
+                    <div class = "top">
+                        <p class = "name">Jim R.</p>
+                        <div class = "likes">
+                            <p id = "person_3">9</p>
+                            <p>like(s)</p>
+                            <button onclick = "person3_likes()">Like</button>
+                        </div>
+                    </div>
+                    <p class = "person_text">I can't stop listening to the <span>new album</span>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

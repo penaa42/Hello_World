@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 500px;
+    height: 40px;
+    margin: 0px auto 0px auto;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    width: 500px;
+    margin: 10px auto 0px auto;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+h3 {
+    font-size: larger;
+}
+
+span {
+    text-decoration: underline;
+    color: steelblue;
+}
+
+.main {
+    width: 530px;
+    margin: auto;
+    display: flex;
+}
+
+.left_col {
+    width: 150px;
+    height: 200px;
+    margin: 10px 15px 10px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.left_col img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.person {
+    height: 130px;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.person_text {
+    margin: 0px 10px;
+    font-size: large;
+}
+
+p.name {
+    font-size: larger;
+}
+
+.top {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likes p {
+    margin: 5px;
+}
+
+.likes button {
+    margin: 10px 20px;
+    height: 30px;
+    width: 55px;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
