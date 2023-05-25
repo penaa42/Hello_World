@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    width: 700px;
+    margin: auto;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left_nav {
+    margin: 10px;
+}
+
+.nav_search {
+    margin: 10px;
+    width: 300px;
+    height: 20px;
+    border: solid black 2px;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+.right_nav {
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.main_content {
+    width: 700px;
+    height: 400px;
+    margin: 15px auto;
+    display: flex;
+}
+
+.left_col {
+    max-height:fit-content;
+    margin: 10px 5px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.ninja {
+    height: 300px;
+    display: flex;
+    margin: 0px 10px 15px 0px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.word {
+    margin: 5px 15px;
+    align-self: center;
+    text-align: center;
+}
+
+.word span {
+    font-style: italic;
+}
+
+.like_btn {
+    height: 30px;
+    width: 75px;
+    margin: 10px 0px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: gold ;
+}
+
+.definition {
+    width: 210px;
+    margin: 0px 20px;
+    padding: 0px 15px;
+    align-self: center;
+    font-size: large;
+}
+
+.definition span {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+
+.right_col {
+    height: 130px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0px 10px 5px;
+    padding: 5px;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.your_def {
+    padding: 5px;
+    height: auto;
+    font-size: x-large;
+}
+
+.your_def span {
+    font-weight: bold;
+}
+
+.add_def {
+    width: 150px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: rgb(78, 185, 124);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "nav_bar">
+            <h1 class = "left_nav">Dojonary</h1>
+            <input class = "nav_search" type = "text" placeholder = "Search">
+            <button onclick = "logout(this)" class = "right_nav">Login</button>
+        </div>
+
+    <div class = "main_content">
+        <div class = "left_col">
+            <div class = "ninja">
+                <div class = "word">
+                    <h2>ninja</h2>
+                    <p><span>noun</span></p>
+                    <p>Plural: <span>ninjas</span></p>
+                    <button onclick = "like_ninja()" class = "like_btn">13 likes</button>
+                </div>   
+                <div class = "definition">
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+
+            <div class = "ninja">
+                <div class = "word">
+                    <h2>ninja</h2>
+                    <p><span>noun</span></p>
+                    <p>Plural: <span>ninjas</span></p>
+                    <button onclick = "like_ninja(this)" class = "like_btn">37 likes</button>
+                </div>
+                <div class = "definition">
+                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "right_col">
+            <p class = "your_def">Dojonary is defined by <span>YOU</span></p>
+            <button onclick = "def_remove(this)" class = "add_def">Add Definition</button>
+        </div>
+    </div>
+
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
