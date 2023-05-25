@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+  color: skyblue;
+  background-color: white;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  width: 125px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.row {
+  margin: 10px;
+  color: rgb(60, 126, 146);
+  display: flex;
+}
+
+.col {
+  background-color: rgb(60, 126, 146);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+.nav {
+  background-color: rgb(90, 85, 85);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.nav_title {
+  font-weight: bold;
+  color: white;
+  width: 50px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav_links {
+  width: 40%;
+  color: rgb(107, 105, 105);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
