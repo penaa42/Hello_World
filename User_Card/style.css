@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grouped_items {
+    width: 500px;
+    margin: 50px 125px;
+    border: solid 2px lightgray;
+    background: linear-gradient(
+        to top,
+        white 0%,
+        white 70%,
+        rgb(81, 147, 185) 70%,
+        rgb(81, 147, 185) 100%
+    );
+}
+
+.user_picture{
+    margin: 5px;
+    padding: 30px 0px 0px 15px;
+    font-family: monospace bold;
+}
+.user_picture img {
+    height: 70px;
+    width: 70px;
+    border: solid 2px lightgray;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.user_location {
+    display: flex;
+    margin: 5px;
+    padding: 0px 0px 0px 15px;
+}
+
+.user_location img {
+    max-height: 15px;
+    max-width: 10px;
+}
+
+.user_location p {
+    font-size:large;
+    margin: 0px 0px 0px 10px;
+}
+
+.user_info {
+    margin: 5px;
+    padding: 0px 0px 0px 15px;
+}
+
+.user_settings {
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 10px 10px;
+}
+
+.user_settings img {
+    max-height: 15px;
+    max-width: 15px;
+}
+
+.user_settings a {
+    padding: 0px 0px 5px 5px;
+    font-size: smaller;
+}
+
+
+
