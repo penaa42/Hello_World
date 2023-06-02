@@ -6,6 +6,10 @@ h1 {
     font-family: monospace;
 }
 
+span {
+    color: aqua;
+}
+
 h2 {
     text-align: center;
     color: white;
